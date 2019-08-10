@@ -145,20 +145,20 @@
               $lastInsertIndex = $row['max'];
           }
 
-          echo $person_id;
-          $sql = "insert into contribution(contributor_id,person_id,amount_contributed) values('$lastInsertIndex','$person_id','$modal_amount') ";
-          mysqli_query($con, $sql);
-
-          $sql = "select (amount_received) from person where person_id = '$person_id' ";
+          $sql = "insert into contributions(contributor_id,person_id,amount_contributed) values('$lastInsertIndex','$person_id','$modal_amount') ";
+          $result = mysqli_query($con, $sql);
+          
+          $sql = "select amount_received from person where person_id = '$person_id' ";
           $rows = mysqli_query($con, $sql);
           $curr_amount = 0;
           foreach($rows as $row){
-            $curr_amount += $row['amount_received'];
+            $curr_amount = $row['amount_received'];
           }
+          $curr_amount += $modal_amount;
 
           $sql = "update person set amount_received = '$curr_amount' where person_id = '$person_id' ";
-          mysqli_query($con, $sql);
-
+          $rows = mysqli_query($con, $sql);
+          echo "<script>window.location='dashboard.php'</script>";
       }
   }
 ?>

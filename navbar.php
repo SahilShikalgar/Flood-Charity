@@ -2,7 +2,7 @@
 <nav class="mb-1 pt-2 pb-2 navbar navbar-expand-lg navbar-dark nav-color">
     <a class="navbar-brand" href="dashboard.php">
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
-        <spna class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
     </button>
     <div class="navbar-collapse collapse" id="navbarSupportedContent-4" style="">
         <ul class="navbar-nav ml-auto"> 

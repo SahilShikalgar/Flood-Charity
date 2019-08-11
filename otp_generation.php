@@ -24,8 +24,8 @@
             $result = mysqli_query($con, $sql);
 
             try {
-                // $result = $textlocal->sendSms($numbers, $message, $sender);
-                // print_r($result);
+                $result = $textlocal->sendSms($numbers, $message, $sender);
+                print_r($result);
             } 
             catch (Exception $e) {
                 die('Error: ' . $e->getMessage());

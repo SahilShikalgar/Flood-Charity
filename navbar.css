@@ -10,3 +10,7 @@ a > img {
 .navbar-brand {
     font-family: cursive;
 }
+.img-responsive {
+    height: 7%;
+    border-radius: 50%;
+}

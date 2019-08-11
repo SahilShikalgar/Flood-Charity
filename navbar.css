@@ -2,11 +2,6 @@
     background-color: #4CAF50;
 }
 
-a > img {
-    height: 7%;
-    border-radius: 50%;
-}
-
 .navbar-brand {
     font-family: cursive;
 }

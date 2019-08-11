@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Maharashra Flood Relief</title>
+  <title>Helping Nation</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script type="text/javascript" src="dashboard.js"></script>
   <link rel="stylesheet" type="text/css" href="dashboard.css"></link>

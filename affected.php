@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Maharashra Flood Relief</title>
+  <title>Helping Nation</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="affected.css" />
   <script type="text/javascript" src="affected.js"></script>

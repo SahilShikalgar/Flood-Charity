@@ -6,13 +6,12 @@
     </button>
     <div class="navbar-collapse collapse" id="navbarSupportedContent-4" style="">
         <ul class="navbar-nav ml-auto"> 
-            <!-- <li class="nav-item active">
-                     <img class="img-responsive" src="logo.png" hspace="12">
-                    <a class="nav-link waves-effect waves-light" href="./index.php">
+            <li class="nav-item active">
+                <a class="nav-link waves-effect waves-light" href="./index.php">
                     <i class="fa fa-home"></i> Dashboard
                     <span class="sr-only">(current)</span>
-                    </a>
-            </li> -->
+                </a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link waves-effect waves-light" href="./dashboard.php">
                 <i class="fa fa-users"></i> People In Need

@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="navbar.css">
 <nav class="mb-1 pt-2 pb-2 navbar navbar-expand-lg navbar-dark nav-color">
     <a class="navbar-brand" href="dashboard.php">
-        <img class="img-responsive" src="logo.png" hspace="12">Helping Nation</a>
+        Helping Nation</a>
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
         <spna class="navbar-toggler-icon"></span>
     </button>

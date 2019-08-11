@@ -38,14 +38,14 @@
         </a>
       </div>
       <div class="col-md-3 mt-4 mb-4">
-        <a class="btn btn-success text-white button">
+        <a class="btn btn-success text-white button" href="dashboard.php">
           <i class="fa fa-handshake-o fa-2x" aria-hidden="true"></i></br>
           Help Affected People
         </a>
       </div>
       <div class="col-md-3 mt-4 mb-4">
-        <a class="btn btn-success text-white button">
-          <i class="fa fa-users fa-2x" aria-hidden="true"> <span class="font_size" id="people_count" ><?php echo $reported_people ?</span></i></br>
+        <a class="btn btn-success text-white button" href="affected.php">
+          <i class="fa fa-users fa-2x" aria-hidden="true"> <span class="font_size" id="people_count" ><?php echo $reported_people ?></span></i></br>
           Total Affected People
         </a>
       </div>

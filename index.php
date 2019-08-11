@@ -25,7 +25,6 @@
   <title>Helping Nation</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="index.css"></link>
-  <script type="text/javascript" src="index.js"></script>
 </head>
 <body style="background-color: #f2f2f2 !important;">
   <?php require('navbar.php'); ?>

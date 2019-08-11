@@ -7,8 +7,7 @@
 <head>
   <title>Helping Nation</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <script type="text/javascript" src="dashboard.js"></script>
-  <link rel="stylesheet" type="text/css" href="dashboard.css"></link> -->
+  <script type="text/javascript" src="contributors.js"></script>
 </head>
 <body>
   <?php include('./navbar.php') ?>
@@ -16,7 +15,7 @@
     <div class="row mt-5 mb-5">
       <div class="col-md-11 mx-auto">
       <div class="table-responsive">
-        <table id="table_id" class="table table-striped table-bordered text-center">
+        <table id="contributor_table" class="table table-striped table-bordered text-center">
             <thead class="bg-secondary text-white">
               <tr>
                 <th>Contributor Name</th>

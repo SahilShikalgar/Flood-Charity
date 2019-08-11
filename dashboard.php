@@ -134,8 +134,20 @@
           $modal_amount = $_REQUEST['modal_amount'];
           $person_id = $_REQUEST['person_id'];
 
-          $sql = "insert into contributor(contr_name, amount_contributed, mobile_no) values('$contr_name','$modal_amount', '$mobile_no')";
-          $result = mysqli_query($con, $sql);
+          $sql = "select contributor_id,amount_contributed from contributor where mobile_no = '$mobile_no'";
+          $rows = mysqli_query($con, $sql);
+          $contributor_id = -1;
+          $contributed_amount = 0;
+          foreach($rows as $row){
+            $contributor_id = $row['contributor_id'];
+            $contributed_amount = $row['amount_contributed'];
+            $contributed_amount += $modal_amount;
+            $sql = "update contributor set amount_contributed = '$contributed_amount'";
+          }
+          if($contributor_id == -1){
+            $sql = "insert into contributor(contr_name, amount_contributed, mobile_no) values('$contr_name','$modal_amount', '$mobile_no')";
+            $result = mysqli_query($con, $sql);
+          }
 
           $sql = "select Max(contributor_id) as max from contributor";
           $rows = mysqli_query($con, $sql);

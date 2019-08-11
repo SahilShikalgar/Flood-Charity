@@ -7,6 +7,8 @@
 <head>
   <title>Helping Nation</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
   <script type="text/javascript" src="dashboard.js"></script>
   <link rel="stylesheet" type="text/css" href="dashboard.css"></link>
 </head>

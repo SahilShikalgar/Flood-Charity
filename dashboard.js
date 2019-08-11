@@ -16,6 +16,7 @@ jQueryScript.setAttribute('src','https://ajax.googleapis.com/ajax/libs/jquery/3.
 document.head.appendChild(jQueryScript);
 
 function openModal(person) {
+    $('#person_id').val(person.person_id);
     window.person = person;
     $('#modal_fullname').html(person.full_name);
     $('#modal_address').val(person.village + ", " + person.taluka + ", " + person.district);

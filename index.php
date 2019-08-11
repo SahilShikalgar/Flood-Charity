@@ -12,7 +12,7 @@
       $amount_contributed = $row['sum'];
     }
 
-    $sql = "select count(person) as person_count from person";
+    $sql = "select count(person_id) as person_count from person";
     $rows = mysqli_query($con, $sql);
     foreach($rows as $row){
       $reported_people = $row['person_count'];

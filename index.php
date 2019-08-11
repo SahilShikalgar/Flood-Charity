@@ -32,7 +32,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-3 mt-4 mb-4">
-        <a class="btn btn-success text-white button">
+        <a class="btn btn-success text-white button" href="affected.php">
           <i class="fa fa-flag fa-2x" aria-hidden="true"></i></br>
           Report Affected People
         </a>
@@ -44,13 +44,13 @@
         </a>
       </div>
       <div class="col-md-3 mt-4 mb-4">
-        <a class="btn btn-success text-white button" href="affected.php">
+        <a class="btn btn-success text-white button">
           <i class="fa fa-users fa-2x" aria-hidden="true"> <span class="font_size" id="people_count" ><?php echo $reported_people ?></span></i></br>
           Total Affected People
         </a>
       </div>
       <div class="col-md-3 mt-4 mb-4">
-        <a class="btn btn-success text-white button">
+        <a class="btn btn-success text-white button" href="contributors.php">
           <i id="total_c_made" class="fa fa-inr fa-2x" aria-hidden="true"> <span class="font_size" id="total_contribution"><?php echo $amount_contributed ?></span></i></br>
           Total Contributions Made
         </a>

@@ -17,10 +17,6 @@
     foreach($rows as $row){
       $reported_people = $row['person_count'];
     }
-    echo $amount_contributed;
-    echo $reported_people;
-    echo "<script>document.getElementById('total_contribution').innerHTML = '$amount_contributed';</script>";
-    echo "<script>document.getElementById('people_count').innerHTML = '$reported_people';</script>";
   }
 ?>
 <!DOCTYPE html>
@@ -49,13 +45,13 @@
       </div>
       <div class="col-md-3 mt-4 mb-4">
         <a class="btn btn-success text-white button">
-          <i class="fa fa-users fa-2x" aria-hidden="true"> <span class="font_size" id="people_count" >100</span></i></br>
+          <i class="fa fa-users fa-2x" aria-hidden="true"> <span class="font_size" id="people_count" ><?php echo $reported_people ?</span></i></br>
           Total Affected People
         </a>
       </div>
       <div class="col-md-3 mt-4 mb-4">
         <a class="btn btn-success text-white button">
-          <i id="total_c_made" class="fa fa-inr fa-2x" aria-hidden="true"> <span class="font_size" id="total_contribution">10000</span></i></br>
+          <i id="total_c_made" class="fa fa-inr fa-2x" aria-hidden="true"> <span class="font_size" id="total_contribution"><?php echo $amount_contributed ?></span></i></br>
           Total Contributions Made
         </a>
       </div>

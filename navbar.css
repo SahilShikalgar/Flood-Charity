@@ -2,7 +2,7 @@
     background-color: #4CAF50;
 }
 
-img {
+a > img {
     height: 7%;
     border-radius: 50%;
 }

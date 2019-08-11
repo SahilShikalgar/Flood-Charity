@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script type="text/javascript" src="contributors.js"></script>
 </head>
-<body>
+<body style="background-color: #f2f2f2 !important;">
   <?php include('./navbar.php') ?>
   <div class="container-fluid">
     <div class="row mt-5 mb-5">

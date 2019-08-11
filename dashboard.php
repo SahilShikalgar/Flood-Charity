@@ -10,7 +10,7 @@
   <script type="text/javascript" src="dashboard.js"></script>
   <link rel="stylesheet" type="text/css" href="dashboard.css"></link>
 </head>
-<body>
+<body style="background-color: #f2f2f2 !important;">
   <?php include('./navbar.php') ?>
   <div class="container-fluid">
     <div class="row mt-5 mb-5">

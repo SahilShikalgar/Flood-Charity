@@ -7,10 +7,19 @@
   <link rel="stylesheet" type="text/css" href="affected.css" />
   <script type="text/javascript" src="affected.js"></script>
 </head>
-<body>
+<body style="background-color: #f2f2f2 !important;">
   <?php include('./navbar.php') ?>
   <div class="container">
-    <div class="row mt-5 mb-5">
+    <div class="row">
+        <div class="col-md-8 mx-auto p-3">
+            <div class="card    ">
+                <div class="card-header">
+                    <p>You can help flood affected people by reporting them on this site. If you are a fund raising organization then please help the flood affected people.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-5">
         <div class="col-md-8 mx-auto">
             <div class="card">
                 <div class="card-header card-header-color text-white text-center">
@@ -41,7 +50,7 @@
                         <button type="submit" class="btn btn-success form-control mt-3" id="register" name="register">Register</button>
                     </form>
                 </div>   
-                <div class="card-footer text-center">
+                <div class="card-footer text-center bg-secondary text-white">
                     Charity brings to life again those who are spiritually dead.
                 </div>  
             </div>
